@@ -1,0 +1,1221 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+
+}
+
+.nav-bar {
+    display: flex;
+    height: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #4367C4;
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.search-icon {
+    align-items: center;
+    position: absolute;
+    top: 1.7rem;
+    left: 21.9rem;
+
+}
+
+.search-input {
+    align-items: center;
+    width: 550px;
+    height: 38px;
+    padding-left: 2.5rem;
+    border-radius: 20px;
+    background-color: #dcdcdc70;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #DCDCDC;
+
+}
+
+
+.nav-bar ul {
+
+    gap: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+
+.cart-logo {
+    display: flex;
+    margin-right: 3rem;
+}
+.menu{
+    display: none;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+.menu span {
+    height: 0.2rem;
+  width: 100%;
+  background-color: #4bbbf3;
+  border-radius: 0.2rem;
+}
+#menu-items {
+    display: flex;
+    gap: 15rem;
+  }
+  
+  #li {
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    align-items: center;
+  }
+  #li a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+
+.welcome {
+    display: flex;
+    height: 72px;
+    background-color: #EAEAEA;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.free {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+.featured {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.feat-prodct {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.find-what {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.products {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+    row-gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+
+
+
+}
+
+.product-list {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 280px;
+    height: 365px;
+    padding-top: 6px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 0px 0 rgba(0, 0, 0, 0.058);
+
+}
+
+
+.prdct-img {
+    width: 16.5rem;
+
+}
+
+.prdct-detail {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.price-and-addtocart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount {
+    background-image: url("unsplash_s8u4kl8imQA.svg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 7rem;
+
+}
+
+.save20 {
+    font-size: 52px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.Explore {
+    display: flex;
+    width: 200px;
+    height: 54px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    color: #4367C4;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.new-arrivals {
+    font-size: 42px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.discount-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 7rem;
+}
+
+.discount-2a {
+    background-image: url("unsplash_JcWfwAIN0tc.svg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    width: 500px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    gap: 0.5rem;
+}
+
+.discount-2b {
+    background-image: url("unsplash_3JAOcgZ_ZXU.svg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 755px;
+    height: 474px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
+    gap: 0.5rem;
+}
+
+.amazing-offers {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: medium;
+}
+
+.get-free {
+    font-size: 36px;
+    font-weight: medium;
+}
+
+.seasons-essentials {
+    font-size: 36px;
+    font-weight: medium;
+    color: #FEB901;
+}
+
+.snag-best-dresses {
+    font-size: 16px;
+    font-weight: light;
+    color: #FFFFFF;
+}
+
+.learn-more {
+    height: 48px;
+    width: 120px;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.collection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    width: 151px;
+    height: 48px;
+    background-color: #FEB901;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.products-2 {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.Shoe-Collections {
+    background-image: url('unsplash_642Z2aj6gS0.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    width: 421px;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Seasonal-Sales {
+    background-image: url('unsplash_mU88MlEFcoU.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    width: 421px;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.mens {
+    background-image: url('unsplash_hMMXhKSZk7k.svg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    width: 421px;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.newsletter{
+    margin-top: 8rem;
+    height: 217px;
+    background-color: #4367C4;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-news{
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.email-update{
+    font-size: 16px;
+}
+.enter-email{
+    width: 370px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 6px;
+}
+.sign-up{
+    border-radius: 8px;
+    border: none;
+    width: 135px;
+    height: 48px;
+    background-color: #FEB901;
+    margin-left: 4px;
+}
+.news-letter-a{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #FFFFFF;
+}
+.footer{
+    margin-top: 8rem;
+    margin-bottom: 11rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    gap: 7rem;
+}
+.footer-b{
+    display: flex;
+    gap: 3.5rem;
+}
+.footer-bi{
+    display: flex;
+    gap: 2rem;
+}
+.footer-headers{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.footer-header{
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35px;
+    margin-bottom: 2.7rem;
+}
+.footer p {
+    line-height: 1.5rem;
+}
+.secured-payment{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 4rem;
+}
+.follow-us{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 2.5rem;
+}
+.socials{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.app-store{
+    display: flex;
+    gap: 20px;
+    width: 149px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 6px;
+    padding-left: 2px;
+    margin-top: 6px;
+    padding-right: 2px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+/* product details css */
+.product-details{
+    width: 80%;
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    gap: 1rem;
+}
+.product-details-img img {
+    width: 523px;
+    height: 544px;
+}
+.product-details h4{
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+.product-details h3{
+    font-size: 24px;
+}
+.running-shoes{
+    font-size: 10px;
+    margin-bottom: 1rem;
+}
+.price{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
+    width: 139px;
+    font-size: 12px;
+    height: 34px;
+}
+.amount{
+    display: flex;
+    
+}
+.symbol-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    border-radius: 2px;
+    height: 32px;
+    background-color: #EB001B;
+    margin-top: 4px;
+    margin-right: 2px;
+}
+.symbol-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    border-radius: 2px;
+    height: 32px;
+    background-color: #34A853;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    border-radius: 2px;
+    height: 40px;
+    border: 1px solid;
+}
+.product-details button {
+    margin-left: 0.5rem;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #4367C4;
+    border: none;
+    color: white;
+
+}
+.lorem{
+    margin-top: 1rem;
+}
+.lorem h2{
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+/* checkout css */
+.checkout{
+    margin-top: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    display: flex;
+    gap: 1rem;
+}
+.checkout-1{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.frame-53{
+    width: 290px;
+    height: 290px;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+}
+.turner{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.size{
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: space-between;
+    margin-bottom: 0.2rem;
+    align-items: center;
+}
+.size input {
+    width: 144px;
+    height: 40px;
+}
+.PRICE{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 4px;
+}
+.checkout-1 button {
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    text-align: center;
+    width:150px ;
+    height:52px ;
+    background-color: #EB001B;
+    color: #FFFFFF;
+}
+.go-to-checkout{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #34A853;
+    width: 250px;
+    height: 60px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        display: flex;
+        height: 44.4px;
+        padding-left: 5.5px;
+        padding-right: 5.5px;
+        background-color: #4367C4;
+        display: flex;
+        flex-direction: row;
+        gap: 0.2rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .nav-items {
+        /* margin-top: 2rem; */
+        display: flex;
+        flex-direction: row;
+        gap: 1.1rem;
+    }
+    .search-icon {
+        align-items: center;
+        position: static;
+        margin-top: 4px;
+    
+    }
+    .logo{
+        width: 7rem;
+        height: 3rem;
+    }
+    .cart-logo{
+        margin-right:5rem ;
+        width: 2rem;
+        height: 2rem;
+    }
+    .search-input {
+        display: none;
+        align-items: center;
+        width: 305px;
+        height: 21.1px;
+        padding-left: 1.38rem;
+        border-radius: 11.1px;
+        background-color: #dcdcdc70;
+        border: none;
+        font-weight: bold;
+        font-size: 11.1px;
+        color: #DCDCDC;
+    
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 0.2rem;
+        margin-right: 25px;
+        cursor: pointer;
+    }
+    #li {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        color: white;
+    
+      }
+    
+      #li:active {
+        text-decoration: underline;
+      }
+      #menu-items {
+        background-color: #4367C4;
+        display: none;
+        position: relative;
+        gap: 10px;
+        flex-direction: column;
+        width: 17rem;
+        /* right:0rem ; */
+        padding-top: 4rem;
+        align-items: center;
+        margin-bottom: 0.2rem;
+        margin-top: 26rem;
+        /* margin-right: 0rem; */
+        height: 20rem;
+      }
+    
+      #menu-items.open {
+        display: flex;
+        transform: translateY(1%);
+        transition: 0.5s ease-in;
+      }
+    .welcome {
+        display: flex;
+        height: 40px;
+        background-color: #EAEAEA;
+        align-items: center;
+        justify-content: center;
+        font-size: 11.1px;
+        font-weight: bold;
+    }
+    
+    .free {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 26.6px;
+        color: #FFFFFF;
+        background-color: black;
+    }
+    
+    .featured {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.1rem;
+    
+    }
+    
+    .feat-prodct {
+        font-size: 23.3px;
+        font-weight: bold;
+    }
+    
+    .find-what {
+        font-size: 11.1px;
+        font-weight: lighter;
+    }
+    .products {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-gap: 15px;
+        row-gap: 40px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    
+    
+    
+    }
+    
+    .product-list {
+        margin-top: 1.1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 155.5px;
+        height: 202px;
+        padding-top: 3.3px;
+        box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 0px 0 rgba(0, 0, 0, 0.058);
+    
+    }
+    
+    
+    .prdct-img {
+        width: 9.1rem;
+    
+    }
+    
+    .prdct-detail {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        margin-left: 0.27rem;
+        margin-right: 0.27rem;
+        margin-top: 0.27rem;
+    }
+    .prdct-detail p{
+     font-size: 9px;
+    }
+    .prdct-detail h2{
+        font-size: 12px;
+    }
+    .prdct-detail-img {
+        width: 12px;
+        height: 12px;
+    }
+    .discount-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 5.5px;
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+        margin-top: 3.9rem;
+    }
+    
+    .discount-2a {
+        background-image: url("unsplash_JcWfwAIN0tc.svg");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        width: 277.8px;
+        height: 263.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1.1rem;
+        gap: 0.27rem;
+    }
+    
+    .discount-2b {
+        background-image: url("unsplash_3JAOcgZ_ZXU.svg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 419.4px;
+        height: 263.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1.1rem;
+        gap: 0.28rem;
+    }
+    
+    .amazing-offers {
+        font-size: 13.3px;
+        color: #FFFFFF;
+        font-weight: medium;
+    }
+    
+    .get-free {
+        font-size: 20px;
+        font-weight: medium;
+    }
+    
+    .seasons-essentials {
+        font-size: 20px;
+        font-weight: medium;
+        color: #FEB901;
+    }
+    
+    .snag-best-dresses {
+        font-size: 8.9px;
+        font-weight: light;
+        color: #FFFFFF;
+    }
+    
+    .learn-more {
+        height: 26.6px;
+        width: 66.7px;
+        border: 1px solid #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        border-radius: 5.6px;
+    }
+    
+    .collection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+        width: 83.9px;
+        height: 25px;
+        background-color: #FEB901;
+        color: #FFFFFF;
+        border-radius: 5.6px;
+    }
+    
+    .products-2 {
+        display: flex;
+        gap: 0.83rem;
+        margin-top: 1.94rem;
+        margin-left: 1.67rem;
+        margin-right: 1.67rem;
+    }
+    
+    .Shoe-Collections {
+        background-image: url('unsplash_642Z2aj6gS0.svg');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        width: 233.8px;
+        height: 136.6px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16.6px;
+        font-weight: bold;
+    }
+    
+    .Seasonal-Sales {
+        background-image: url('unsplash_mU88MlEFcoU.svg');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        width: 233.8px;
+        height: 137.7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16.6px;
+        font-weight: bold;
+    
+    }
+    
+    .mens {
+        background-image: url('unsplash_hMMXhKSZk7k.svg');
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        width: 233.8px;
+        height: 137.7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16.6px;
+        font-weight: bold;
+    
+    }
+    .newsletter{
+        margin-top: 4.4rem;
+        height: 120.5px;
+        background-color: #4367C4;
+        display: flex;
+        gap: 1.6rem;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1.6px ;
+        padding-right: 1.6px;
+    }
+    .sign-up-news{
+        font-size: 12px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    .email-update{
+        font-size: 8.8px;
+    }
+    .enter-email{
+        width: 150.5px;
+        height: 20.6px;
+        font-size: 9px;
+        border: none;
+        border-radius: 4.4px;
+        padding-left: 3.3px;
+    }
+    .sign-up{
+        font-size: 9px;
+        border-radius: 4.4px;
+        border: none;
+        width:70px;
+        height: 20.6px;
+        background-color: #FEB901;
+        margin-left: 2.2px;
+    }
+    .news-letter-a{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        color: #FFFFFF;
+    }
+    .footer{
+        margin-top: 4.4rem;
+        margin-bottom: 6.1rem;
+        display: flex;
+        justify-content: center;
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+        gap: 3.8rem;
+    }
+    .footer-b{
+        display: flex;
+        gap: 1.94rem;
+    }
+    .footer-bi{
+        display: flex;
+        gap: 1.1rem;
+    }
+    .footer-headers{
+        font-size: 8.8px;
+        font-weight: bold;
+        margin-bottom: 1.1rem;
+    }
+    .footer-header{
+        font-size: 8.8px;
+        font-weight: bold;
+    }
+    .footer-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -19.4px;
+        margin-bottom: 1.5rem;
+        width: 80px;
+        height: 30px;
+    }
+    .footer p {
+        line-height: 0.83rem;
+        font-size: 9px;
+    }
+    .secured-payment{
+        font-size: 8.8px;
+        font-weight: bold;
+        margin-top: 2.2rem;
+    }
+    .follow-us{
+        font-size: 8.8px;
+        font-weight: bold;
+        margin-top: 1.4rem;
+    }
+    .socials{
+        display: flex;
+        gap: 5.5px;
+        margin-top: 5.5px;
+    }
+    .socials img{
+        width: 20px;
+        height: 20px;
+    }
+    .app-store{
+        display: flex;
+        gap: 11.1px;
+        width: 82.7px;
+        height: 26.6px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 3.3px;
+        padding-left: 1.1px;
+        margin-top: 3.3px;
+        padding-right: 1.1px;
+        font-size: 9px;
+    }
+    .app-store img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    /* product details css */
+
+.product-details{
+    width: 44.4%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2.7rem;
+    margin-top: 2.7rem;
+    gap: 0.6rem;
+}
+.product-details-img  {
+    width: 250px;
+    height: 290px;
+}
+.product-details h4{
+    font-size: 6.7px;
+    margin-bottom: 0.6rem;
+}
+.product-details h3{
+    font-size: 13.3px;
+}
+.running-shoes{
+    font-size: 5.5px;
+    margin-bottom: 1rem;
+}
+.price{
+    font-size: 22.2px;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 0.3rem;
+    width: 77.2px;
+    font-size: 6.6px;
+    height: 18.8px;
+}
+.amount{
+    display: flex;
+    
+}
+.symbol-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    border-radius: 1.1px;
+    height: 17.7px;
+    background-color: #EB001B;
+    margin-top: 2.2px;
+    margin-right: 1.1px;
+}
+.symbol-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    border-radius: 1.1px;
+    height: 17.7px;
+    background-color: #34A853;
+    margin-top: 2.2px;
+    margin-left: 1.1px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21.1px;
+    border-radius: 1.1px;
+    height: 22.2px;
+    border: 1px solid;
+}
+.product-details button {
+    margin-left: 0.3rem;
+    width: 77.7px;
+    height: 22.2px;
+    border-radius: 3.3px;
+    background-color: #4367C4;
+    border: none;
+    color: white;
+
+}
+.lorem{
+    margin-top: 0.5rem;
+}
+.lorem h2{
+    font-size: 13.3px;
+    margin-bottom: 0.3rem;
+}
+/* check-out */
+.checkout{
+    margin-top: 1.6rem;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.checkout-1{
+    border: 1px solid;
+    display: flex;
+    gap: 5px;
+    border-radius: 5.5px;
+    padding: 0.27rem;
+}
+.frame-53{
+    width: 161px;
+    height: 161px;
+    border-radius: 11.1px;
+    margin-bottom: 0.27rem;
+}
+.turner{
+    margin-bottom: 0.5rem;
+    font-size: 11.1px;
+}
+.size{
+    display: flex;
+    font-size: 11.1px;
+    font-weight: bolder;
+    justify-content: space-between;
+    margin-bottom: 0.11rem;
+    align-items: center;
+}
+.size input {
+    width: 80px;
+    height: 22.2px;
+}
+.PRICE{
+    font-weight: bold;
+    font-size: 12.2px;
+    margin-top: 2.22px;
+}
+.checkout-1 button {
+    border: none;
+    border-radius: 5.5px;
+    margin-top: 0.5rem;
+    text-align: center;
+    width:83.3px ;
+    height:28.8px ;
+    background-color: #EB001B;
+    color: #FFFFFF;
+}
+.go-to-checkout{
+    margin: 1.1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #34A853;
+    width: 138.8px;
+    height: 33.3px;
+}
+
+
+
+    
+   
+}
