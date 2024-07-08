@@ -182,7 +182,7 @@
 }
 
 .discount {
-    background-image: url("./unsplash_s8u4kl8imQA.svg");
+    background-image: url("/unsplash_s8u4kl8imQA.svg");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -234,7 +234,7 @@
 }
 
 .discount-2a {
-    background-image: url("./unsplash_JcWfwAIN0tc.svg");
+    background-image: url("/unsplash_JcWfwAIN0tc.svg");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -248,7 +248,7 @@
 }
 
 .discount-2b {
-    background-image: url("./unsplash_3JAOcgZ_ZXU.svg");
+    background-image: url("/unsplash_3JAOcgZ_ZXU.svg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -316,7 +316,7 @@
 }
 
 .Shoe-Collections {
-    background-image: url('./unsplash_642Z2aj6gS0.svg');
+    background-image: url('/unsplash_642Z2aj6gS0.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -330,7 +330,7 @@
 }
 
 .Seasonal-Sales {
-    background-image: url('./unsplash_mU88MlEFcoU.svg');
+    background-image: url('/unsplash_mU88MlEFcoU.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -345,7 +345,7 @@
 }
 
 .mens {
-    background-image: url('./unsplash_hMMXhKSZk7k.svg');
+    background-image: url('/unsplash_hMMXhKSZk7k.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -812,7 +812,7 @@
         height: 12px;
     }
     .discount {
-        background-image: url("./unsplash_s8u4kl8imQA.svg");
+        background-image: url("/unsplash_s8u4kl8imQA.svg");
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
@@ -837,7 +837,7 @@
     }
     
     .discount-2a {
-        background-image: url("./unsplash_JcWfwAIN0tc.svg");
+        background-image: url("/unsplash_JcWfwAIN0tc.svg");
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
@@ -851,7 +851,7 @@
     }
     
     .discount-2b {
-        background-image: url("./unsplash_3JAOcgZ_ZXU.svg");
+        background-image: url("/unsplash_3JAOcgZ_ZXU.svg");
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
@@ -943,7 +943,7 @@
     }
     
     .Shoe-Collections {
-        background-image: url('./unsplash_642Z2aj6gS0.svg');
+        background-image: url('/unsplash_642Z2aj6gS0.svg');
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
@@ -958,7 +958,7 @@
     }
     
     .Seasonal-Sales {
-        background-image: url('./unsplash_mU88MlEFcoU.svg');
+        background-image: url('/unsplash_mU88MlEFcoU.svg');
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
@@ -974,7 +974,7 @@
     }
     
     .mens {
-        background-image: url('./unsplash_hMMXhKSZk7k.svg');
+        background-image: url('/unsplash_hMMXhKSZk7k.svg');
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
