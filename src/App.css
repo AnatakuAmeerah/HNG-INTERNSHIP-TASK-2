@@ -150,12 +150,12 @@ html {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 13px;
+    grid-gap: 15px;
     row-gap: 40px;
     align-items: center;
     justify-content: center;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
     overflow: hidden;
 
 
@@ -782,12 +782,12 @@ html {
         margin-top: 2rem;
         display: grid;
         grid-template-columns: auto auto ;
-        grid-gap: 15px;
+        grid-gap: 10px;
         row-gap: 40px;
         align-items: center;
         justify-content: center;
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     
     
     
