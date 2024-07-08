@@ -3,7 +3,7 @@ function Checkout() {
         <>
             <section className="checkout">
                 <div className="checkout-1">
-                    <div> <img className="frame-53" src="./Frame 53.svg" alt="" /></div>
+                    <img className="frame-53" src="./Frame 53.svg" alt="" />
                     <div>
                         <p className="turner">Turner essentials</p>
                         <div className="size">Size <input type="number" /></div>
@@ -13,7 +13,7 @@ function Checkout() {
                     </div>
                 </div>
                 <div className="checkout-1">
-                    <div > <img className="frame-53" src="./Frame 53.svg" alt="" /></div>
+                     <img className="frame-53" src="./Frame 53.svg" alt="" />
                     <div>
                         <p className="turner">Turner essentials</p>
                         <div className="size">Size <input type="number" /></div>

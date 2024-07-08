@@ -3,9 +3,8 @@ function ProductDetails() {
   return (
     <>
       <section className="product-details">
-     <div >
       <img className="product-details-img" src="./Frame 53.svg " alt="nike shoe" />
-     </div>
+     
      <div className="product-details-text">   
       <h4>Home/ Shop / Shoes</h4>
         <h3>Nike Air 1s</h3>

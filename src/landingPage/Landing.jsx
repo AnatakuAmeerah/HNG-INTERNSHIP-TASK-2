@@ -52,7 +52,7 @@ function Landing() {
                     <p className="sign-up-news">Sign Up for Newsletters</p>
                     <p className="email-update">Get Email updates about latest offers</p>
                 </div>
-                <div >
+                <div className="news-letter-b" >
                     <input className="enter-email" type="text" placeholder="Enter your email address" />
                   <button className="sign-up">Sign Up</button>
                 </div>

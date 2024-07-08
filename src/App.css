@@ -182,7 +182,7 @@
 }
 
 .discount {
-    background-image: url("unsplash_s8u4kl8imQA.svg");
+    background-image: url("./unsplash_s8u4kl8imQA.svg");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -234,7 +234,7 @@
 }
 
 .discount-2a {
-    background-image: url("unsplash_JcWfwAIN0tc.svg");
+    background-image: url("./unsplash_JcWfwAIN0tc.svg");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -248,7 +248,7 @@
 }
 
 .discount-2b {
-    background-image: url("unsplash_3JAOcgZ_ZXU.svg");
+    background-image: url("./unsplash_3JAOcgZ_ZXU.svg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -316,7 +316,7 @@
 }
 
 .Shoe-Collections {
-    background-image: url('unsplash_642Z2aj6gS0.svg');
+    background-image: url('./unsplash_642Z2aj6gS0.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -330,7 +330,7 @@
 }
 
 .Seasonal-Sales {
-    background-image: url('unsplash_mU88MlEFcoU.svg');
+    background-image: url('./unsplash_mU88MlEFcoU.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -345,7 +345,7 @@
 }
 
 .mens {
-    background-image: url('unsplash_hMMXhKSZk7k.svg');
+    background-image: url('./unsplash_hMMXhKSZk7k.svg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -644,6 +644,8 @@
         align-items: center;
         position: static;
         margin-top: 4px;
+        width: 1.2rem;
+        height: 1.5rem;
     
     }
     .logo{
@@ -652,8 +654,9 @@
     }
     .cart-logo{
         margin-right:5rem ;
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 3px;
     }
     .search-input {
         display: none;
@@ -671,11 +674,19 @@
     }
     .menu{
         display: flex;
+
         justify-content: space-between;
         flex-direction: column;
-        margin-bottom: 0.2rem;
+        height: 1rem;
+        margin-top: 0.3rem;
         margin-right: 25px;
         cursor: pointer;
+    }
+    .menu span {
+        height: 0.1rem;
+      width:80%;
+      background-color: #FFFFFF;
+      border-radius: 0.2rem;
     }
     #li {
         display: flex;
@@ -692,15 +703,12 @@
         background-color: #4367C4;
         display: none;
         position: relative;
-        gap: 10px;
         flex-direction: column;
-        width: 17rem;
-        /* right:0rem ; */
+        width: 14rem;
         padding-top: 4rem;
         align-items: center;
         margin-bottom: 0.2rem;
         margin-top: 26rem;
-        /* margin-right: 0rem; */
         height: 20rem;
       }
     
@@ -717,7 +725,11 @@
         justify-content: center;
         font-size: 11.1px;
         font-weight: bold;
+    }.save20{
+        text-align: center;
+        font-size: 32px;
     }
+
     
     .free {
         display: flex;
@@ -799,6 +811,20 @@
         width: 12px;
         height: 12px;
     }
+    .discount {
+        background-image: url("./unsplash_s8u4kl8imQA.svg");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5.5px;
+        margin-top: 3.8rem;
+    
+    }
     .discount-2 {
         display: flex;
         justify-content: center;
@@ -811,7 +837,7 @@
     }
     
     .discount-2a {
-        background-image: url("unsplash_JcWfwAIN0tc.svg");
+        background-image: url("./unsplash_JcWfwAIN0tc.svg");
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
@@ -825,17 +851,38 @@
     }
     
     .discount-2b {
-        background-image: url("unsplash_3JAOcgZ_ZXU.svg");
+        background-image: url("./unsplash_3JAOcgZ_ZXU.svg");
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 419.4px;
+        width: 419.5px;
         height: 263.3px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 1.1rem;
+        padding-left: 1rem;
         gap: 0.28rem;
+    }
+    .Explore {
+        display: flex;
+        width: 111px;
+        height: 30px;
+        background-color: #FFFFFF;
+        font-size: 11.1px;
+        color: #4367C4;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5.5px;
+    
+    }
+    
+    .new-arrivals {
+        font-size: 23.3px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.1rem;
     }
     
     .amazing-offers {
@@ -863,13 +910,15 @@
     
     .learn-more {
         height: 26.6px;
-        width: 66.7px;
+        width: 69.7px;
         border: 1px solid #FFFFFF;
         display: flex;
         align-items: center;
         justify-content: center;
         color: #FFFFFF;
         border-radius: 5.6px;
+        font-size:14px ;
+        text-align: center;
     }
     
     .collection {
@@ -881,7 +930,8 @@
         height: 25px;
         background-color: #FEB901;
         color: #FFFFFF;
-        border-radius: 5.6px;
+        font-size: 14px;
+        border-radius: 4.6px;
     }
     
     .products-2 {
@@ -893,7 +943,7 @@
     }
     
     .Shoe-Collections {
-        background-image: url('unsplash_642Z2aj6gS0.svg');
+        background-image: url('./unsplash_642Z2aj6gS0.svg');
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
@@ -902,27 +952,29 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 16.6px;
+        text-align: center;
+        font-size: 15px;
         font-weight: bold;
     }
     
     .Seasonal-Sales {
-        background-image: url('unsplash_mU88MlEFcoU.svg');
+        background-image: url('./unsplash_mU88MlEFcoU.svg');
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
         width: 233.8px;
         height: 137.7px;
         display: flex;
+        text-align: center;
         justify-content: center;
         align-items: center;
-        font-size: 16.6px;
+        font-size: 15px;
         font-weight: bold;
     
     }
     
     .mens {
-        background-image: url('unsplash_hMMXhKSZk7k.svg');
+        background-image: url('./unsplash_hMMXhKSZk7k.svg');
         background-repeat: no-repeat;
         background-position: 50%;
         background-size: cover;
@@ -931,7 +983,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 16.6px;
+        font-size: 15px;
         font-weight: bold;
     
     }
@@ -940,7 +992,7 @@
         height: 120.5px;
         background-color: #4367C4;
         display: flex;
-        gap: 1.6rem;
+        gap: 1.2rem;
         align-items: center;
         justify-content: center;
         padding-left: 1.6px ;
@@ -955,7 +1007,7 @@
         font-size: 8.8px;
     }
     .enter-email{
-        width: 150.5px;
+        width: 148px;
         height: 20.6px;
         font-size: 9px;
         border: none;
@@ -966,7 +1018,7 @@
         font-size: 9px;
         border-radius: 4.4px;
         border: none;
-        width:70px;
+        width:68px;
         height: 20.6px;
         background-color: #FEB901;
         margin-left: 2.2px;
@@ -974,8 +1026,13 @@
     .news-letter-a{
         display: flex;
         flex-direction: column;
+        margin-left: 1rem;
         gap: 0.5rem;
         color: #FFFFFF;
+    }
+    .news-letter-b{
+     display: flex;
+     margin-right: 1rem;
     }
     .footer{
         margin-top: 4.4rem;
