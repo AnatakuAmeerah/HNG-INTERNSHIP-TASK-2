@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const PaymentSuccess = () => {
   return (
-    <div>
+    <div className='payment-sucessful'>
       <h1>Payment Successful!</h1>
       <p>Thank you for your purchase.</p>
       <Link to="/">Shop More</Link>

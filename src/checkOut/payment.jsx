@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Checkout() {
     return (
         <>
@@ -19,13 +21,18 @@ function Checkout() {
                         <div className="size">Size <input type="number" /></div>
                         <div className="size">Quantity <input type="number" /></div>
                         <p className="PRICE">Price: $ 201.00</p>
-                        <button>Remove</button>
+                        <button>
+                            Remove
+                            </button>
+                      
                     </div>
 
                 </div>
 
             </section>
+            <Link className="link" to="/payment-success">
             <button className="go-to-checkout">Go To Checkout</button>
+            </Link>
         </>
     )
 }

@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 function ProductDetails() {
   return (
     <>
@@ -16,7 +16,9 @@ function ProductDetails() {
           <div className="symbol-1">-</div>
           <div className="one">1</div>
           <div className="symbol-2">+</div>
+          <Link className="link" to="/checkout">
           <button>Add To Cart</button>
+          </Link>
 
         </div>
         <div className="lorem">

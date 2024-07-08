@@ -33,7 +33,7 @@ function Navbar() {
                 <div id="li" >
                     {links.map((link) => {
                         return (
-                            <a href={link.url} key={link.id} onClick={handleClick}>{link.text} </a>
+                            <a className='hover' href={link.url} key={link.id} onClick={handleClick}>{link.text} </a>
                         )
                     })}
                 </div>
