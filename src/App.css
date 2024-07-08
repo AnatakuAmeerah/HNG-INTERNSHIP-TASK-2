@@ -17,6 +17,11 @@
     align-items: center;
     justify-content: space-between;
 }
+#sticky {
+    position: sticky;
+    top: 0%;
+  
+  }
 
 .nav-items {
     /* margin-top: 2rem; */
@@ -653,7 +658,7 @@
         height: 3rem;
     }
     .cart-logo{
-        margin-right:5rem ;
+        margin-right:4rem ;
         width: 1.5rem;
         height: 1.5rem;
         margin-top: 3px;
@@ -679,7 +684,7 @@
         flex-direction: column;
         height: 1rem;
         margin-top: 0.3rem;
-        margin-right: 25px;
+        margin-right: 6px;
         cursor: pointer;
     }
     .menu span {
@@ -1041,7 +1046,7 @@
         justify-content: center;
         margin-left: 1.6rem;
         margin-right: 1.6rem;
-        gap: 3.8rem;
+        gap: 3rem;
     }
     .footer-b{
         display: flex;
@@ -1199,6 +1204,7 @@
 }
 .lorem{
     margin-top: 0.5rem;
+    width: 20rem;
 }
 .lorem h2{
     font-size: 13.3px;

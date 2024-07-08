@@ -19,8 +19,11 @@ function Navbar() {
     }
 
     return (
-        <section className="nav-bar">
-            <div > <img className="logo" src="./Frame 21.svg" alt="logo" /></div>
+        <section id='sticky' className="nav-bar">
+            <Link className="link" to="/">
+            <div > <img className="logo" src="./Frame 21.svg" alt="logo" />
+            </div>
+            </Link>
             <div className="nav-items">
                 <div className="search-bar">
                     <img className='search-icon' src="./teenyicons_search-outline.svg" alt="" />

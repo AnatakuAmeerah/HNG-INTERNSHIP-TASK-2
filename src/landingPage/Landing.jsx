@@ -6,7 +6,7 @@ function Landing() {
         <>
 
             {/* heading1 */}
-            <section>
+            <section id="home">
                 {/* heading1 */}
                 <h3 className="welcome">Welcome to LabelLeux</h3>
                 <h3 className="free">Free Shipping on Membership Plan</h3>
@@ -23,7 +23,7 @@ function Landing() {
                 <div className="Explore">Explore More</div>
             </section>
             {/* shop react scroll */}
-            <section >
+            <section id='shop' >
                 <p className="new-arrivals">New Arrivals</p>
                 <Products />
                 <div className="discount-2">
@@ -59,7 +59,7 @@ function Landing() {
 
             </section>
             {/* footer */}
-            <section className="footer">
+            <section id="contact" className="footer">
                 <div className="footer-a">
                     <img className="footer-logo" src="./Frame 22.svg" alt="logo" />
                     <p className="footer-header">Contact</p>
