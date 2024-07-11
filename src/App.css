@@ -1,12 +1,14 @@
 * {
     margin: 0;
     padding: 0; 
-
 }
+
+
 
 html {
     scroll-behavior: smooth;
   }
+
 
 .nav-bar {
     display: flex;
@@ -19,6 +21,7 @@ html {
     gap: 8rem;
     align-items: center;
     justify-content: space-between;
+    overflow-x: hidden;
 }
 #sticky {
     position: sticky;
@@ -639,7 +642,7 @@ html {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .nav-bar {
         display: flex;
         height: 44.4px;
@@ -651,6 +654,7 @@ html {
         gap: 0.2rem;
         align-items: center;
         justify-content: space-between;
+        overflow-x: visible;
     }
     
     .nav-items {
@@ -713,6 +717,9 @@ html {
         flex-direction: column;
         color: white;
     
+      }
+      .hover{
+        margin-bottom: 2rem;
       }
     
       #li:active {
@@ -1292,3 +1299,61 @@ html {
     height: 33.3px;
 }
 }
+
+/* Tablet */
+
+/* @media screen and (min-width: 770px){
+    .products {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-gap: 15px;
+        row-gap: 40px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1.7rem;
+        margin-right: 1.7rem;
+        overflow: hidden;
+    
+    
+    
+    
+    }
+    .nav-bar {
+        display: flex;
+        height: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #4367C4;
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
+    
+.search-icon {
+    align-items: center;
+    position: absolute;
+    top: 1.7rem;
+    left: 18.9rem;
+
+}
+
+.search-input {
+    align-items: center;
+    width: 350px;
+    height: 38px;
+    padding-left: 2.5rem;
+    border-radius: 20px;
+    background-color: #dcdcdc70;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #DCDCDC;
+
+}
+
+
+} */
